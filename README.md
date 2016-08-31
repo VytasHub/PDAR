@@ -1,2 +1,2 @@
 # PDAR
-Resource for course "Programming for Data Analytics"
+Resource for course CT5102 Module - "Programming for Data Analytics"
