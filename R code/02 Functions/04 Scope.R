@@ -16,6 +16,21 @@ h <- function(){
 
 
 
+f<- function(x){
+  if( x < 20){
+    0
+  }else {
+    10
+  }
+}
+
+g<- function(x){
+  if( x < 20){
+    return(0)
+  }else {
+    return(10)
+  }
+}
 
 
 
