@@ -33,8 +33,21 @@ j<- function(){
   
 }
 
+f <- function (x) x^2
+
+g <- function(){
+  x <- f(2)
+  f <- function (y) y ^3
+  y <- f(2)
+  c(x,y)
+}
 
 
+f <- function(x)x^2
+
+g <- function(){
+  c(is.function(f),is.primitive(f),is.primitive(sum))
+}
 
 
 

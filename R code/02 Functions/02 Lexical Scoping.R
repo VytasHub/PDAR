@@ -7,6 +7,7 @@ f <- function(){
 f()
 
 x <- 2
+y <- 22
 g <- function(){
   y <- 1
   c(x,y)
