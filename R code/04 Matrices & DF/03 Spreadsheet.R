@@ -13,4 +13,3 @@ qplot(faithful$eruptions,faithful$waiting)+
   ylab("Waiting time until next Eruption")
 
 
-
