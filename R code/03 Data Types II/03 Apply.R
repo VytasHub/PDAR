@@ -10,3 +10,8 @@ qplot(x,y)+geom_point(colour="blue")
 as_list <- function(...){
   list(...)
 }
+
+t<-function(...){
+  x<-unlist(list(...))
+  list(min=min(x))
+}
